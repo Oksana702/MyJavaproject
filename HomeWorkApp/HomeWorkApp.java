@@ -6,6 +6,7 @@ public class HomeWorkApp {
 printThreeWords ();
 checkSumSign ();
 printColor();
+compareNumbers();
 }
 
 
@@ -37,10 +38,25 @@ printColor();
     if (value<=0){
         System.out.println("Красный");
     }
-    if (value>0){
-        System.out.println("Зеленый");
+    if (value > 0 && value<=100){
+        System.out.println("Желтый");
         }
+    if (value>100){
+        System.out.println("Зеленый");
+    }
     }
 
-}
+    public static void compareNumbers() {
+   int a=25;
+   int b=32;
+
+   if (a>=b){
+       System.out.println("a>=b");
+   }
+   if (a<b){
+        System.out.println("a<b");
+   }
+   }
+
+    }
 
