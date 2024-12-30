@@ -5,6 +5,7 @@ public class HomeWorkApp {
 
 printThreeWords ();
 checkSumSign ();
+printColor();
 }
 
 
@@ -15,17 +16,31 @@ checkSumSign ();
     }
 
     public static void checkSumSign () {
-        int A=5;
-        int B=7;
+        int a=5;
+        int b=7;
 
-        if(A+B>=0){
+        if(a+b>=0){
             System.out.println("Сумма положительная");
         }
-        if (A+B<0){
+        if (a+b<0){
             System.out.println("Сумма отрицательная");
         }
 
 
     }
 
+
+
+    private static void printColor() {
+    int value=9;
+
+    if (value<=0){
+        System.out.println("Красный");
+    }
+    if (value>0){
+        System.out.println("Зеленый");
+        }
+    }
+
 }
+
