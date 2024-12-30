@@ -2,9 +2,11 @@ package HomeWorkApp;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
+
 printThreeWords ();
 checkSumSign ();
-    }
+}
+
 
     public static void printThreeWords (){
         System.out.println ("Orange");
@@ -24,6 +26,6 @@ checkSumSign ();
         }
 
 
-
     }
+
 }
