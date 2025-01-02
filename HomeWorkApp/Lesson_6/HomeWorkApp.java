@@ -1,4 +1,4 @@
-package HomeWorkApp;
+package HomeWorkApp.Lesson_6;
 
 public class HomeWorkApp {
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ compareNumbers();
 
 
 
-    private static void printColor() {
+    public static void printColor() {
     int value=9;
 
     if (value<=0){
