@@ -3,8 +3,8 @@ package HomeWorkApp.Lesson_7;
 public class Task5 {
     public static void main(String[] args) {
         System.out.println("\nTask5.");
-        invertArray;
-
+        invertArray();
+    }
 
         public static void invertArray(){
             int [] arr = {1,0,1,0,0,1};
