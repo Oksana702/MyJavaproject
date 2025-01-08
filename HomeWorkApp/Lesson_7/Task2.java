@@ -2,7 +2,7 @@ package HomeWorkApp.Lesson_7;
 
 public class Task2 {
     public static void main(String[] args) {
-        System.out.println(isPositiveOrNegative(21));
+        isPositiveOrNegative(21);
     }
 
     public static void isPositiveOrNegative(int x) {

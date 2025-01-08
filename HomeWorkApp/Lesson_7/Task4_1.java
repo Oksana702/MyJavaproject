@@ -3,7 +3,7 @@ package HomeWorkApp.Lesson_7;
 public class Task4_1 {
     public static void main(String[] args) {
         System.out.println("\nTask4.1");
-        specialYear();
+        specialYear(2024);
     }
 
     public static void specialYear(int year) {

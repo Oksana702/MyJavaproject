@@ -6,7 +6,7 @@ public class Task9 {
         Task9();
     }
 
-    public static void Task9(int len, ine initialValue) {
+    public static void Task9(int len, int initialValue) {
         int [] arr=new int[len];
         for (int i=0; i<len; i++){
             arr[i]=initialValue;
