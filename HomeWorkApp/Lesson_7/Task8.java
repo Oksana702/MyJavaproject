@@ -17,3 +17,4 @@ public class Task8 {
                System.out.println();
     }
 }
+
